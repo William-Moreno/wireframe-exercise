@@ -1,3 +1,81 @@
 body {
-  background-color: gray;
+  width: 1080px;
+  background-color: white;
+}
+
+nav {
+  height: 100px;
+  background-color: rgb(95, 95, 95);
+  line-height: 100px;
+  padding-top: 15px;
+}
+
+nav img {
+  margin-left: 60px;
+}
+
+nav a {
+  line-height: 100px;
+}
+#hero {
+  box-sizing: border-box;
+  margin: 30px 60px 0 60px;
+}
+
+#sub-banners {
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 58px;
+}
+
+#subban2 {
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+#featured {
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#feature-img {
+  float: left;
+  padding-bottom: 30px;
+}
+
+#feature-info {
+  float: right;
+  width: 450px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#feature-info p {
+  height: 240px;
+  line-height: 24px;
+  letter-spacing: 1.25px;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+
+#call-to-action {
+  height: 50px;
+  width: 260px;
+  font-size: 16px;
+  letter-spacing: 1.25px;
+  border-radius: 10px;
+}
+
+footer {
+  clear: both;
+  margin-top: 30px;
+  height: 100px;
+  background-color: rgb(95, 95, 95);
 }
